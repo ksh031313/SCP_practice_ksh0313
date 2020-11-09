@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run ksh0313-1",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "customer.ksh0313.Application",
+      "projectName": "ksh0313",
+      "preLaunchTask": "Build ksh0313",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env1",
+      "env": {
+        "run.config": "{\"handlerId\":\"cap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/ksh0313\\\",\\\"profileName\\\":\\\"\\\"}\"}"
+      }
+    }
+  ]
+}
